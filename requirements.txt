@@ -1,0 +1,8 @@
+pycaret==2.2.3
+streamlit==1.12.2
+pandas==1.4.1
+streamlit_option_menu==0.3.2
+plotly==5.5.0
+shap==0.41.0
+streamlit_shap==1.0.2
+streamlit_echarts==0.4.0

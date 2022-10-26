@@ -8,7 +8,7 @@ Created on Mon Oct 17 21:47:17 2022
 import streamlit as st
 import pandas as pd
 from streamlit_option_menu import option_menu
-from pycaret.classification import *
+from pycaret.classification import setup, create_model, predict_model
 import plotly.express as px
 import shap
 from streamlit_shap import st_shap

@@ -103,7 +103,7 @@ if selected == 'COVID Triage':
         df['Mortality Outcome'] = train['class'].replace([1,0], ['Deceased', 'Survived'])
         fig = px.histogram(df, x = cols, color = 'Mortality Outcome',
                            color_discrete_map = {'Deceased':'red','Survived':'blue'})
-        fig.add_vline(x=abc[cols].iloc[0], line_dash="dot",
+        fig.add_vline(x=test[cols].iloc[0], line_dash="dot",
                       annotation_text="Current Patient", 
                       annotation_position="top left",
                       annotation_font_size=10,

@@ -1,7 +1,7 @@
 # covidtriageStreamlit
 COVID triage application built with streamlit
 
-#Running on Local Machine
+# Running on Local Machine
 - Download the repository
 - Open command prompt 
 - 'pip install -r requirements'
